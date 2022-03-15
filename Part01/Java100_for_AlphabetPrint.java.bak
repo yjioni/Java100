@@ -1,0 +1,10 @@
+public class Java100_for_AlphabetPrint{
+	public static void main(String[] args){
+		System.out.println("A Ascii: " + (int)'A');
+		System.out.println("Z Ascii: " + (int)'Z');
+		
+		for (int i=65; i<=90; i++){
+			System.out.print((char)i + " ");
+		}
+	}
+}
