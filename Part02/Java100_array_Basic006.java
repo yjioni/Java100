@@ -1,0 +1,21 @@
+public class Java100_array_Basic006{
+	public static void main(String[] args){
+		
+		int[] ar1 = {3, 3, 3, 2, 1};
+		double[] ar2 = {93.9, 9, 0};
+		String[] ar3 = {"°í°í", "Áý"};
+		
+		System.out.println(ar1[0]);
+		System.out.println(ar2[2]);
+		System.out.println(ar3[0]);
+		
+		
+		System.out.println("int type ref: " + ar1);
+		System.out.println("double type ref: " + ar2);
+		System.out.println("String type ref: " + ar3);
+		
+		long[] ar4 = {0, 303, 333};
+		System.out.println("long type ref: " + ar4);
+		
+	}
+}
