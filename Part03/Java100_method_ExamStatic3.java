@@ -1,0 +1,15 @@
+public class Java100_method_ExamStatic3{
+	
+	public static void sum( int a ){
+		a += 500;
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args){
+		int a = 100;
+		System.out.print("sum() method 호출했을 때 a: ");
+		sum(a);
+	
+		System.out.println("그냥 a 호출했을 때: " + a);
+	}
+}
