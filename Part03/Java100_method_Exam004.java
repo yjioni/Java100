@@ -1,0 +1,22 @@
+public class Java100_method_Exam004{
+	public static String capitalMethod(String a){
+		String rst;
+		rst = a.toUpperCase();
+		return rst;
+	}
+	public static String lowerMethod(String b){
+		String rst1;
+		rst1 = b.toLowerCase();
+		return rst1;
+	}
+	
+	public static void main(String[] args){
+		String result;
+		result = capitalMethod("Korea");
+		System.out.println(result);
+		
+		String result1;
+		result1 = lowerMethod("Korea");
+		System.out.println(result1);
+	}
+}
