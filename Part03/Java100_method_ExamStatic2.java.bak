@@ -4,6 +4,8 @@ public class Java100_method_ExamStatic2{
 	}
 	
 	public static void main(String[] args){
-		
+		// helloWorld();
+		Java100_method_ExamStatic2 jme = new Java100_method_ExamStatic2;
+		jme.helloWorld();
 	}
 }
