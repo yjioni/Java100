@@ -3,7 +3,7 @@ class Person{
 	int gender;
 	int power;
 	// constructor
-	// Person(){}
+	// Person(){}  //-- 이거 왜 오류나는지 모르겠음
 	Person(){
 		this.gender = 1;
 		this.power = 100;

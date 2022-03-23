@@ -3,7 +3,7 @@ class Person{
 	int gender;
 	int power;
 	// constructor
-	// Person(){}
+	Person(){}  //-- 이거 왜 오류나는지 모르겠음
 	Person(){
 		this.gender = 1;
 		this.power = 100;
@@ -42,6 +42,7 @@ public class Java100_oop_inheritanceSample3{
 		// 상속을 통한 객체 생성
 		Hero h1 = new Hero("아이언맨", 40);
 		h1.walk();
+		h1.eat();
 		h1.displayPerson();
 	}
 }
