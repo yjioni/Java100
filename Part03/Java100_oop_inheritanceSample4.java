@@ -4,7 +4,8 @@ class Person{
 	int power;
 	
 	// constructor
-	Person(){
+	Person(){}
+	Person(int gender, int power){
 		this.gender = gender;
 		this.power = power;
 	}
@@ -66,6 +67,6 @@ public class Java100_oop_inheritanceSample4{
 		System.out.println(h1.age);
 		h1.walk();
 		h1.eat();
-		// h1.displayPerson();
+		h1.displayPerson();
 	}
 }

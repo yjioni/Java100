@@ -4,7 +4,7 @@ class Person{
 	int power;
 	
 	// constructor
-	Person(){
+	Person(int gender, int power){
 		this.gender = gender;
 		this.power = power;
 	}
@@ -60,12 +60,12 @@ public class Java100_oop_inheritanceSample4{
 		p1.walk();
 		System.out.println("--------");
 		
-		Hero h1 = new Hero(1, 100, "원더우면", 30); //-- 왜 못들고가는거지? 부모클래스 생성자 설정?
+		Hero h1 = new Hero(1, 100, "원더우면", 30); //-- 부모클래스 생성자 설정이 왜 안되는거지??
 		System.out.println(h1.name);
 		System.out.println(h1.gender);
 		System.out.println(h1.age);
 		h1.walk();
 		h1.eat();
-		// h1.displayPerson();
+		h1.displayPerson();
 	}
 }
