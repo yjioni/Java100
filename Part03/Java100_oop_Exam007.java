@@ -15,7 +15,7 @@ class Person{
 
 public class Java100_oop_Exam007{
 	public static void main(String[] args){
-		Person p1 = new Person(10, "È«±æµ¿");
+		Person p1 = new Person(20, "È«±æµ¿");
 		System.out.println(p1);
 		System.out.println(p1.name);
 		System.out.println(p1.age);
@@ -26,5 +26,8 @@ public class Java100_oop_Exam007{
 		
 		Person p3 = new Person(30, "±¹¿µ¼ö");
 		p3.printPerson();
+		
+		Person p4 = new Person(40, "À»Áö¹®´ö");
+		p4.printPerson();
 	}
 }
