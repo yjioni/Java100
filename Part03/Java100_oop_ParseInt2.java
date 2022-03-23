@@ -24,6 +24,5 @@ public class Java100_oop_ParseInt2{
 		System.out.println(Integer.parseInt("1011", 2));
 		System.out.println(Integer.parseInt("A", 16));
 		System.out.println(Integer.parseInt("FF", 16));
-		
 	}
 }
