@@ -1,0 +1,47 @@
+// 부모 클래스
+class Person{
+	// field 속성
+	int gender;
+	int power;
+	// constructor 생성자
+	Person(){
+		this.gender = 1;
+		this.power = 100;
+	}
+	// method 메서드
+	void walk(){
+		System.out.println("걸어가고 있어요!");
+	}
+}
+
+// 자식 클래스
+class Hero extends Person{
+	// field
+	String name;
+	int age;
+	// constructor
+	Hero(){}
+	Hero(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	// method
+	void eat(){ System.out.println("밥먹고 있어요"); }
+	void displayPerson(){
+		System.out.printf("이름: %s | 나이: %d | 성별: %s | 파워: %d%n", name, age, gender, power);
+	}
+}
+
+public class Java100_oop_inheritanceSample2{
+	public static void main(String[] args){
+		// 객체 생성
+		Person p1 = new Person();
+		p1.walk();
+		// 상속을 통한 객체 생성
+		Hero h1 = new Hero("슈퍼맨", 20);
+		h1.eat();
+		h1.displayPerson();
+		System.out.println(h1.name);
+		System.out.println(h1.power);
+	}
+}
