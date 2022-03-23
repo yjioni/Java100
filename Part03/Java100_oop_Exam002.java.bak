@@ -1,0 +1,27 @@
+class FarmMachine{
+	// Attribute 加己
+	int price;
+	int year;
+	String color;
+	// Method 悼累
+	void move(){ System.out.println("FarmMachine is moving."); }
+	void dig(){ System.out.println("FarmMachine is digging."); }
+	void grind(){ System.out.println("FarmMachine is grinding."); }
+}
+
+public class Java100_oop_Exam002{
+	public static void main(String[] args){
+		// 按眉 积己
+		FarmMachine fm = new FarmMachine();
+		System.out.println(fm);
+		// 按眉俊 加己蔼 涝仿
+		fm.price = 1000;
+		fm.year = 2022;
+		fm.color = "black";
+		// 加己 蔼 免仿
+		System.out.println(fm.price);
+		System.out.println(fm.year);
+		System.out.println(fm.color);
+		fm.move();
+	}
+}
