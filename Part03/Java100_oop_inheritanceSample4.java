@@ -20,7 +20,7 @@ class Hero extends Person{
 	
 	// constructor
 	Hero(){}
-	Hero( String name, int age ){
+	Hero( int gender, int power, String name, int age ){
 		super(); //-- 부모클래스의 생성자 호출
 		this.name = name;
 		this.age = age;
@@ -32,7 +32,22 @@ class Hero extends Person{
 	}
 	void eat(){System.out.println("먹고 있는데요?");}
 	void displayPerson(){
-		System.out.println("이름: " + name + "(" + age + " | " + gender + " ) | 파워: " + power);
+		System.out.println("이름: " + name + "(" + age + " | " + getGender(gender) + " ) | 파워: " + power);
+	}
+	public String getGender(int a){
+		String rst;
+		switch(a){
+			case 0:
+				rst = "남자";
+				break;
+			case 1:
+				rst = "여자";
+				break;
+			default:
+				rst = "---";
+				break;
+		}
+		return rst;
 	}
 }
 
@@ -43,13 +58,14 @@ public class Java100_oop_inheritanceSample4{
 		System.out.println(p1);
 		
 		p1.walk();
+		System.out.println("--------");
 		
-		Hero h1 = new Hero("원더우면", 30);
+		Hero h1 = new Hero(1, 100, "원더우면", 30); //-- 부모클래스 생성자 설정이 왜 안되는거지??
 		System.out.println(h1.name);
 		System.out.println(h1.gender);
 		System.out.println(h1.age);
 		h1.walk();
 		h1.eat();
-		h1.displayPerson();
+		// h1.displayPerson();
 	}
 }
