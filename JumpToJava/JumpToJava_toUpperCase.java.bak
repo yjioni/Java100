@@ -1,0 +1,7 @@
+public class JumpToJava_toUpperCase{
+	public static void main(String[] args){
+		string c = "Hello World";
+		System.out.println(c.toUpperCase());
+		System.out.println(c.toLowerCase());
+	}
+}
