@@ -29,7 +29,7 @@ public class Java100_oop_ObjArray1{
 		// for 로 객체 생성
 		for (int i=0; i<pa.length; i++){
 			pa[i] = new Person(i+"번 후보자", i+20);
-			System.out.println(pa[i].getName() + "(" + pa[i].getAge() + ")");
+			System.out.println(pa[i].getName() + "(" + pa[i].getAge() + ")")
 		}
 	}
 }
