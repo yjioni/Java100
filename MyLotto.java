@@ -120,11 +120,15 @@ public class MyLotto{
 			System.out.print("최종 로또 번호: ");
 			for(int i : checked){System.out.print(i + " ");}
 			System.out.println();
+			System.out.println();
 			
 			// 2차 배열에 넣기
 			Integer[] ar = checked.toArray(new Integer[6]);
 			finLotto[j] = ar;
 		}
+		
+		System.out.println();
+		System.out.println("------------->> 로또 <<--------------");
 		
 		for (int i=0; i<finLotto.length; i++){
 			for (int j=0; j<finLotto[i].length; j++){
