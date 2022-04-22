@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Collections;
 
-public class MyLotto2{
+public class MyLotto{
 	
 	// 사용자 입력 받기 > ArrayList<Integer>
 	public static ArrayList<Integer> userInput(){
