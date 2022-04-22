@@ -4,98 +4,138 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Collections;
 
-public class MyLotto{
+public class MyLotto2{
 	
-	// 사용자 입력 함수
-	static ArrayList<Integer> inputNumber(){
-		// [1]변수 생성
+	// 사용자 입력 받기 > ArrayList<Integer>
+	public static ArrayList<Integer> userInput(){
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("1~50 사이의 숫자를 쉼표(,)를 이용해 입력하세요: ");
+		String userNum = scanner.nextLine();
+		// 쉼표 기준 분리 작업
+		String[] userNums = userNum.split("\\s*,\\s*");
 		
-		System.out.print("1~50 사이의 번호를 입력하세요: ");
-		String user = scanner.nextLine();
+		// 형변환 저장 배열
+		ArrayList<Integer> userNumsArr = new ArrayList<Integer>();
+		// 형변환: String --> Integer
+		for (int i=0;i<userNums.length;i++){
+			userNumsArr.add(Integer.parseInt(userNums[i]));
+		}
+		
+		return userNumsArr;
+	}
 	
-		// [2]쉼표로 분리 & 형변환 & 유효값 확인 
-		String[] str = user.split("\\s*,\\s*");
-		ArrayList<Integer> userAL = new ArrayList<Integer>();
-		for (int i=0;i<str.length;i++){ 
-			int temp = Integer.parseInt(str[i]);
+	// 배열 점검: 숫자!(1~50)제거 > 중복값제거 > 정렬
+	public static ArrayList<Integer> checkNums(ArrayList<Integer> userNumsArr){ 
+		ArrayList<Integer> checkedNums = new ArrayList<Integer>();
+		
+		for (int i=0;i<userNumsArr.size();i++){
+			// 숫자 확인
+			int temp = userNumsArr.get(i);
+			
 			if (temp>0 && temp<51){
-				userAL.add(temp); 
+				if (!checkedNums.contains(temp)){checkedNums.add(temp);}
 			}
-			else { System.out.print("입력하신 숫자" + temp + "는 범위 초과로 삭제합니다.");}
 		}
+		// 오름차순 정렬
+		Collections.sort(checkedNums);
 		
-		return userAL;
+		// 확인 출력
+		// System.out.print("조정된 번호: ");
+		// for (int i=0; i<checkedNums.size(); i++){System.out.print(checkedNums.get(i) +" ");}
+		// System.out.println();
+		
+		return checkedNums; 
 	}
 	
-	// 중복 제거 함수
-	static ArrayList<Integer> deleteSameNumber(ArrayList<Integer> userAL){		
-		
-		ArrayList<Integer> lottoAL = new ArrayList<Integer>();
-		
-		for (int i=0;i<userAL.size();i++){
-			if (!lottoAL.contains( userAL.get(i) )){ lottoAL.add( userAL.get(i) ); }
-		}
-		
-		return lottoAL;
-	}
-	
-	// 자동 번호 함수
-	static ArrayList<Integer> autoNumber(ArrayList<Integer> lottoAL){
-		// 요소가 6개 이하면, 추가
-		while (lottoAL.size()<6){
-			lottoAL.add((int)(Math.random() * 50 +1 ));
-		}
-		return lottoAL;
-	}
-
-	// 출력 저장 함수
-	static void printSave(ArrayList<Integer> lottoAL, String addr){
-		// 오름차순 정렬 
-		Collections.sort(lottoAL);
-	
-		// [6].txt로 저장하기 
+	// txt파일 저장
+	public static void saveFile(Integer[][] finLotto, String addr){
+		String fileNm = addr;
 		try{
-			File file = new File(addr); // 파라미터 addr
+			File file = new File(fileNm);
 			BufferedWriter fileWrite = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "utf-8"));
 			
-			for (int i=0; i<lottoAL.size(); i++){
-				String text = Integer.toString(lottoAL.get(i));
-				text += " ";
-				fileWrite.write(text);
+			for (int i=0; i<finLotto.length; i++){
+				for (int j=0; j<finLotto[i].length; j++){
+					String text = Integer.toString(finLotto[i][j]);
+					text += " ";
+					fileWrite.write(text);
+				}
+				fileWrite.newLine();
 			}
 			
 			fileWrite.flush(); 
 			fileWrite.close();
-			} catch (Exception e){
+			} 
+			catch (Exception e){
 				e.printStackTrace(); 
-		}
+			}
 	}
 	
+	// ArrayList --> Array로 변경
+	// public static Integer[][] changeArray(ArrayList<Integer> checkedNums){
+		// return 1;
+	// }
+	
+	// 메인 메서드
 	public static void main(String[] args){
-		// 사용자 입력 ArrayList
-		ArrayList<Integer> userInput = new ArrayList<Integer>();
-		userInput = inputNumber();
 		
-		System.out.println("사용자 입력 번호: " + userInput);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("로또를 몇장 구매하시겠습니까? : ");
+		int cnt = Integer.parseInt(scanner.nextLine());
+				
+		Integer[][] finLotto = new Integer[cnt][0];
 		
-		// 자동 번호 추가 입력 ArrayList
-		ArrayList<Integer> compNumber = new ArrayList<Integer>();
-		
-		while (compNumber.size() < 6){
-			compNumber = autoNumber(userInput); 
-			compNumber = deleteSameNumber(compNumber); // 중복 제거
+		for (int j=0; j<cnt; j++){
+			// [1] Array 변수 생성 - 사용자 입력 받기
+			ArrayList<Integer> userNums = userInput();
+			
+			System.out.print("사용자가 입력한 값: ");
+			for(int i : userNums){System.out.print(i + " ");}
+			System.out.println();
+			
+			// [2] 사용자 입력 배열 점검
+			ArrayList<Integer> checked = checkNums(userNums);
+			
+			System.out.print("유효 값: ");
+			for(int i : checked){System.out.print(i + " ");}
+			System.out.println();
+			
+			System.out.println("-------------------------------");
+			int n = 6-checked.size();
+			System.out.println("나머지 " + n + "개 숫자는 자동 추첨합니다.");
+			
+			
+			// [3] 로또 배열 만들기
+			int count = 0;
+			while (checked.size()<6){
+				// 랜덤 값 추가
+				int tmp = (int)(Math.random()*50+1);
+				
+				if(!checked.contains(tmp)){
+					checked.add(tmp);
+				}
+			}
+			Collections.sort(checked);
+			
+			System.out.print("최종 로또 번호: ");
+			for(int i : checked){System.out.print(i + " ");}
+			System.out.println();
+			
+			// 2차 배열에 넣기
+			Integer[] ar = checked.toArray(new Integer[6]);
+			finLotto[j] = ar;
 		}
 		
-		System.out.println("최종 로또 번호: " + compNumber);
+		for (int i=0; i<finLotto.length; i++){
+			for (int j=0; j<finLotto[i].length; j++){
+				System.out.print(finLotto[i][j] + " "); 
+			}
+			System.out.println();
+		}
 		
-		// 출력 및 저장
+		// [4] txt 파일 저장
+		String addr = "C:\\Users\\oing9\\Desktop\\lotto.txt";
+		saveFile(finLotto, addr);
 		
-		String addr = "C:\\Users\\admin\\Documents\\Java\\theBeeSoft\\MyLotto.txt";
-		printSave(compNumber, addr);
-		System.out.println("저장 위치: " + addr);
-		System.out.println("저장한 로또 번호: " + compNumber);
-		
-		
-	}
+		}
 }
