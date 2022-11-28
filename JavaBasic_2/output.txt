@@ -1,5 +1,5 @@
 #Properties Example
-#Mon Nov 28 22:08:08 KST 2022
+#Mon Nov 28 22:09:43 KST 2022
 size=10
 language=KR
 timeout=30
