@@ -1,14 +1,13 @@
 import java.io.*;
 import java.util.*;
 
-
 class PropertiesEx2 {
-	
+	// Properties (String, String)
 	public static void main(String[] args) {
 		
 		if (args.length != 1) {
-			System.out.println("USAGE: java PropertiexEx2 INPUTFILENAME");
-			System.exit(0);	
+			System.out.println("USAGE: java PropertiesEx2 INPUTFILENAME");
+			System.exit(0);		
 		}
 		
 		Properties prop = new Properties();
@@ -16,9 +15,9 @@ class PropertiesEx2 {
 		
 		try {
 			prop.load(new FileInputStream(inputFile));
-		} catch(IOException e) {
-			System.out.println("지정된 파일을 찾을 수 없습니다.	");
-			System.exit(0);	
+		} catch (IOException e) {
+			System.out.println("지정된 파일을 찾을 수 없습니다.");
+			System.exit(0);
 		}
 		
 		String name = prop.getProperty("name");
@@ -31,24 +30,23 @@ class PropertiesEx2 {
 		for (int i=0; i<data.length; i++) {
 			int intValue = Integer.parseInt(data[i]);
 			
-			if (i==0){
+			if (i==0) {
 				max = min = intValue;
 			}
-			
 			if (max < intValue) {
 				max = intValue;
 			} else if (min > intValue) {
 				min = intValue;
-			}
-			
+			}			
 			sum += intValue;
 		}
 		
-		System.out.println("name: " + name);
-		System.out.println("max: " + max);
-		System.out.println("min: " + min);
-		System.out.println("sum: " + sum);
-		System.out.println("avg: " + (sum*100.0)/data.length/100);
+		System.out.println("name:"+name);
+		System.out.println("max:"+max);
+		System.out.println("min:"+min);
+		System.out.println("sum:"+sum);
+		
+		System.out.println("avg:"+(sum*100)/data.length/100);
 		
 	}
 	
