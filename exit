@@ -1,0 +1,429 @@
+[33mcommit 71a9999e7342f714848d5c67c1e90dcbc100e96c[m[33m ([m[1;36mHEAD -> [m[1;32moffice[m[33m, [m[1;31morigin/office[m[33m)[m
+Merge: 0c71dce 1ff66ad
+Author: Julia <88180839+yjioni@users.noreply.github.com>
+Date:   Mon Nov 28 22:15:36 2022 +0900
+
+    Merge pull request #2 from yjioni/ubuntu
+    
+    Ubuntu
+
+[33mcommit 1ff66adaa966ca5fe79c7ea194649233e4fd6678[m[33m ([m[1;31morigin/ubuntu[m[33m)[m
+Author: jwyoon <oing922@gmail.com>
+Date:   Mon Nov 28 22:12:28 2022 +0900
+
+    Colletions Framework - Properties Ex4
+
+[33mcommit 43313f3308e63f3c1d2ff760346eed579effbb8d[m
+Author: jwyoon <oing922@gmail.com>
+Date:   Mon Nov 28 22:08:32 2022 +0900
+
+    Collections Framework - Properties Ex3
+
+[33mcommit 067e4e86eaa2996668c1a8bd7f9889f2a7eb6f13[m
+Author: jwyoon <oing922@gmail.com>
+Date:   Mon Nov 28 22:02:01 2022 +0900
+
+    Collection Framework - Properties Ex2
+
+[33mcommit 0c71dceb208540196d42c7db677df3d484fbbd28[m
+Merge: 0ae5114 809dac7
+Author: Julia <88180839+yjioni@users.noreply.github.com>
+Date:   Mon Nov 28 21:36:23 2022 +0900
+
+    Merge pull request #1 from yjioni/ubuntu
+    
+    Properties Exercise #1
+
+[33mcommit 809dac7a7743ddbc124a08834e38ddf64e74360c[m
+Author: jwyoon <oing922@gmail.com>
+Date:   Mon Nov 28 21:35:21 2022 +0900
+
+    Properties Exercise #1
+
+[33mcommit 0ae51142e7602f00579c4467a71e2e5e9e3942b8[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Sat Apr 23 01:24:49 2022 +0900
+
+    Add files via upload
+    
+    fin
+
+[33mcommit 55871faf0964704a09b691e9ad9fb474e30deefa[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Sat Apr 23 01:20:24 2022 +0900
+
+    Add files via upload
+    
+    fin
+
+[33mcommit ea623cca7c205ea1c8daaeaa9dcd1f60787d8444[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Sat Apr 23 01:19:13 2022 +0900
+
+    Add files via upload
+    
+    fin
+
+[33mcommit 23349d5a5e59ff56818c5b97a1e7603438b35e9d[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Fri Apr 22 17:56:08 2022 +0900
+
+    Add files via upload
+    
+    로또 번호 생성기 -수정1 method로 나누기
+
+[33mcommit 4aabb4802bee942260ce914bf8563140df6c0e23[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Fri Apr 22 17:55:15 2022 +0900
+
+    Add files via upload
+    
+    lotto 번호 추출하기 연습
+
+[33mcommit 55bd43a919d3e17e7d4f06c9283b07ff20aa7666[m
+Author: Yulia Yoon <88180839+yjioni@users.noreply.github.com>
+Date:   Mon Mar 28 14:16:46 2022 +0900
+
+    Create README.md
+
+[33mcommit 32cdd3c1f81d1d9950c759bf528538ab12f5fec3[m
+Author: Yulia <oing922@gmail.com>
+Date:   Mon Mar 28 14:16:02 2022 +0900
+
+    JumpToJava-basic2
+
+[33mcommit db6247396c8174a5c0087bf4dadc0a3d04bc105b[m
+Author: Yulia <oing922@gmail.com>
+Date:   Mon Mar 28 13:28:07 2022 +0900
+
+    JumpToJava-basic
+
+[33mcommit 2103e8a4c3962e37d977cb9cc708a9100a53d405[m
+Author: Yulia <oing922@gmail.com>
+Date:   Mon Mar 28 10:26:18 2022 +0900
+
+    구구단 출력
+
+[33mcommit 51a29fe87d9690402d35908258bfd17295900512[m
+Author: Yulia <oing922@gmail.com>
+Date:   Mon Mar 28 10:25:50 2022 +0900
+
+    ex
+
+[33mcommit 8c4f6057f8b7665ddc6f11180efe821a9f432e05[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 16:18:00 2022 +0900
+
+    객체 배열2
+
+[33mcommit 725b770c47c5f7a378d15c7469098afc73477a15[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 16:11:36 2022 +0900
+
+    객체 배열 생성
+
+[33mcommit 9173387f75f17252b96be8187cbc3b59d7625348[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 16:11:22 2022 +0900
+
+    inheritance - 확인 필요: 부모클래스 내 생성자 변경오류
+
+[33mcommit 85efa49bd978384ad87cbd64ea9511aed87b5944[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 15:27:50 2022 +0900
+
+    클래스 생성자 연습
+
+[33mcommit 23504cae3179161a1ddeccefe1f3289a516e4c77[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 15:11:56 2022 +0900
+
+    getter & setter 연습 feat. private 변수
+
+[33mcommit 97a86227fe4ffdd5b17262a4a528d1b3910c9121[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 15:11:34 2022 +0900
+
+    inheritanceSample
+
+[33mcommit e449a390d14413d7f0f38514f34cff2b0f2696c7[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 13:31:50 2022 +0900
+
+    inheritance 연습(3)
+
+[33mcommit 7a47e2ff796b875f83018b15747886c3c1a272ca[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 13:13:46 2022 +0900
+
+    inheritance 연습 - overloading
+
+[33mcommit ecdc2ffc6fe0aa21925a0000da65566e11c7a6a9[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 11:29:52 2022 +0900
+
+    class 상속
+
+[33mcommit 12e9af6db6e29746b8343318371ee554f79c785a[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 11:01:17 2022 +0900
+
+    class_constructor 연습(1)
+
+[33mcommit 17194fe2da1491c846da7b810d3a14384b079c9d[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 10:58:12 2022 +0900
+
+    class_constructor 연습
+
+[33mcommit 4870926540e7769b563fc2ccf5307323b308ab24[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 10:34:02 2022 +0900
+
+    oop test
+
+[33mcommit 8de3b1cb70aa8c2accf22059b177a10b86a83956[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 10:12:42 2022 +0900
+
+    .getClass() & Integer.parseInt()
+
+[33mcommit eee1a48ef949914446dc333f98f48a8a9a7db41d[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 09:24:25 2022 +0900
+
+    1000단위 콤마찍기 String.format();
+
+[33mcommit 9039b1eaa245479cd5661843e1eba3751c550f8c[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 23 09:11:41 2022 +0900
+
+    oop 연습1
+
+[33mcommit 8e66307c9022696e611a82c153c7368018b948fe[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 18:16:30 2022 +0900
+
+    2개 return값 받기
+
+[33mcommit 2be08d5808fbcfaa73c5f4bc4cc6626ea8e7a531[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 18:12:07 2022 +0900
+
+    배열로 return 하기
+
+[33mcommit ce9d2e2cf25d972d4b1fd6377961bccca936ed20[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 18:04:38 2022 +0900
+
+    call by reference
+
+[33mcommit be475507b640d9ff2d0a28165ff6b40a2a488042[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 18:04:25 2022 +0900
+
+    call by value 2
+
+[33mcommit ca302d5d298f868f3b76d615b865c2ea062fc0ef[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:32:03 2022 +0900
+
+    call by value + using common method
+
+[33mcommit d978e65c6d55289ed1622522300f885ca2616caa[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:26:11 2022 +0900
+
+    call by value
+
+[33mcommit c5a1ff9b8044b47593b0e59297ef6f38ce2c2cca[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:23:27 2022 +0900
+
+    type
+
+[33mcommit 7ea73f45640713117132bc81bc6fa6964dfd83b9[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:18:12 2022 +0900
+
+    static method vs common method 수정
+
+[33mcommit e8224ae5d9ae4cd29ec7c7fbc0e71f7ca8b95feb[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:16:03 2022 +0900
+
+    static method vs common method
+
+[33mcommit 1bfe6ddd41e6d1f4972678b2433cc425b03c1a03[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 17:14:07 2022 +0900
+
+    method 4가지
+
+[33mcommit 45d1592baa7a64cd9ba120405791685aec395b1b[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 11:27:43 2022 +0900
+
+    method 오류 수정
+
+[33mcommit ce7a42bfa9ba8156e0898f5219c7ce677ab383e7[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 22 11:27:16 2022 +0900
+
+    method 오류찾기
+
+[33mcommit 146c66408d14755abab315a94e7bd7455dfe4993[m
+Author: Yulia <oing922@gmail.com>
+Date:   Fri Mar 18 08:45:56 2022 +0900
+
+    User Input method & 2nd dimention array
+
+[33mcommit 0645de31b72678f4c0be81f7e019a6e6f858131e[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 15:17:32 2022 +0900
+
+    .charAt(i): 학습2
+
+[33mcommit f3fcd9bc32897ffa66e85186de768249232c9ae7[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 15:06:51 2022 +0900
+
+    .charAt(i); 학습
+
+[33mcommit dcf379fc79590d8e2032ab0f8181e3c26a9d5f04[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 14:56:44 2022 +0900
+
+    2차원 배열 연습3
+
+[33mcommit eafe1238d14474926b06c4d134f0d998f53d32a3[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 09:05:52 2022 +0900
+
+    2차원 배열 연습2
+
+[33mcommit 92e15ff634b861d95447ad3bc4dcb9fa511c033b[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 08:33:39 2022 +0900
+
+    2차원 배열 연습1
+
+[33mcommit 01d3f088a1d2696db16c5903cb0508fc53e8b311[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 17 08:33:11 2022 +0900
+
+    System.arraycopy(복사할배열, 복사 시작위치, 붙여넣기배열, 붙여넣기 위치, 길이); 연습2
+
+[33mcommit da7a081835a822607454c09c3c562cce34a3fd80[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 18:39:58 2022 +0900
+
+    배열복사 - slicing 안됨. System.arraycopy();
+
+[33mcommit 27df882e1644df9ec79daa5afc74395c24a59e62[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 18:34:04 2022 +0900
+
+    array 연습
+
+[33mcommit 0bd48cc54fe61eaa5031df34178f6f400054f157[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 18:24:02 2022 +0900
+
+    araay 연습 - 배열 선언과 동시에 초기화 방법3
+
+[33mcommit 2e43bc90928f9611a56263e81df5db75f33842c8[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 18:23:07 2022 +0900
+
+    array 연습
+
+[33mcommit 572d201d4d56f21da0f1ab3cc4c8bf1b8f863d2c[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 08:58:22 2022 +0900
+
+    while&if 연습
+
+[33mcommit bac95401533fa7863f91b43ccb01484ca4a5836f[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 08:50:14 2022 +0900
+
+    switch 구문 복습
+
+[33mcommit 6a39e527267b199d9d1d461ad7a5b6f22b555e2e[m
+Author: Yulia <oing922@gmail.com>
+Date:   Wed Mar 16 08:38:33 2022 +0900
+
+    ThreeOperator
+
+[33mcommit cebf2aad47ddf9a246e53c35486598f44dba0e77[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 18:10:07 2022 +0900
+
+    array basic
+
+[33mcommit f6128b73e981e7432c28b655b6cc663f17b4a6a1[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 16:59:42 2022 +0900
+
+    iteration & While
+
+[33mcommit c1656815b3374ea5d85ce8563befebdcba219d75[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 15:22:21 2022 +0900
+
+    Three operator
+
+[33mcommit 8b70f5f19b3ea08ad280abd77951aff3e9511432[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 15:21:54 2022 +0900
+
+    for iteration ex
+
+[33mcommit 965cf5b32a3e8636991b1407917c60bc7601fb28[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 15:21:12 2022 +0900
+
+    for_iteration_Ascii
+
+[33mcommit 124e4953097d61732e97e36c053d224633a4bbd6[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 14:37:43 2022 +0900
+
+    삼항연산자 연습
+
+[33mcommit dcdd807b4c0fb8cb190eeb31c177f287106f9a55[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 13:19:47 2022 +0900
+
+    Part01_day3
+
+[33mcommit ad4ea5703d5b8001b751c9b77141bfcd4e0c2bcf[m
+Author: Yulia <oing922@gmail.com>
+Date:   Tue Mar 15 13:12:39 2022 +0900
+
+    Part01-day3
+
+[33mcommit d8db2cc57f14df789aebe550452d82d249d49e32[m
+Author: Yulia <oing922@gmail.com>
+Date:   Fri Mar 11 08:37:41 2022 +0900
+
+    변수 초기화
+
+[33mcommit be3aa1a7e8491e6bf7af2858b015a5bcdbf1e903[m
+Author: Yulia <oing922@gmail.com>
+Date:   Fri Mar 11 08:31:32 2022 +0900
+
+    BYTES, SIZE, MIN_VALUE, MAX_VALUE
+
+[33mcommit d0947f182d90838d432571ee31ac892e8ee90abe[m
+Author: Yulia <oing922@gmail.com>
+Date:   Fri Mar 11 08:11:52 2022 +0900
+
+    Err 찾기
+
+[33mcommit 80727404b30ab826d723f56b38a8c11cc14c12b7[m
+Author: Yulia <oing922@gmail.com>
+Date:   Thu Mar 10 08:45:14 2022 +0900
+
+    Java100_Part01_HelloWorld
